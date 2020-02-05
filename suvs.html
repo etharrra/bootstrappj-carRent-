@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUVs</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- jsCustom -->
+	<script type="text/javascript" src="custom.js"></script>
+	<style type="text/css">
+		.carclass{
+			box-shadow: 5px 10px 10px gray;
+
+		}
+		
+		#ford{
+			display: none;
+		}
+		#honda{
+			display: none;
+		}
+	</style>
+	
+</head>
+<body>
+
+	<div id="nav">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark
+		 fixed-top">
+			<a class="navbar-brand text-warning" href="#">
+				PERFECT7.COM
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse " id="navbarNav">
+				<ul class="navbar-nav ml-auto" align="center">
+					<li class="nav-item px-3 hover1">
+						<a class="nav-link text-warning " href="index.html">Home </a>
+					</li>
+					<li class="nav-item px-3 active1">
+						<a class="nav-link text-warning" href="findcar.html">Find A Car<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item px-3 hover1">
+						<a class="nav-link text-warning" href="work.html">How It Work</a>
+					</li>
+					<li class="nav-item dropdown hover1">
+						<a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							More
+						</a>
+						<div class="dropdown-menu bg-dark text-center" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item text-warning" href="contact.html">Contact Us</a>
+							<a class="dropdown-item text-warning" href="feedback.html">Feedback</a>
+							<a class="dropdown-item text-warning" href="about.html">About</a>
+							<a class="dropdown-item text-warning" href="faq.html">FAQs</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto" align="center">
+					<li class="nav-item px-3">
+						 <a class="nav-link active text-warning" href="#" data-toggle="modal"data-target="#signupModal">Sign in | Sign up</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</div>
+	
+	<div id="cars">
+		<div class="container-fluid mt-5 pt-5 ">
+			<h2 align="center"><b>SUVs</b></h2>
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 mt-4 carclass">
+					<div class="card border-warning">
+						<div>
+							<div id="containerCarousel" class="card-img-top">
+								<div class="container-fluid">
+									<div class="row">
+										<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+											<ol class="carousel-indicators">
+												<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>												
+											</ol>
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<img src="img/16.jpg" class="d-block w-100" alt="...">
+													<div class="carousel-caption d-none d-md-block">
+														
+													</div>
+												</div>
+												
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div><!-- end of container carousel -->
+						</div>
+					</div>
+					<div class="card-body mx-auto" align="center">
+						<h4 align="center"><b>Enclave</b></h4>
+						<div class="row ">
+							<div class="col-12">
+								<i class="fas fa-users fa-2x"></i><br>
+								<p>4 seats</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer">
+						
+						<button type="button" class=" btn btn-warning btn-block"  href="#" data-toggle="modal"data-target="#svone" >Read More</button>
+					
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 mt-4 carclass">
+					<div class="card border-warning">
+						<div>
+							<div id="containerCarousel" class="card-img-top">
+								<div class="container-fluid">
+									<div class="row">
+										<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+											<ol class="carousel-indicators">
+												<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+												
+												
+											</ol>
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<img src="img/26.jpg" class="d-block w-100" alt="...">
+													<div class="carousel-caption d-none d-md-block">
+														
+													</div>
+												</div>
+												
+												
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div><!-- end of container carousel -->
+						</div>
+					</div>
+					<div class="card-body mx-auto" align="center">
+						<h4 align="center"><b>CR-V</b></h4>
+						<div class="row ">
+							<div class="col-12">
+								<i class="fas fa-users fa-2x"></i><br>
+								<p>4 seats</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer">
+						
+						<button type="button" class=" btn btn-warning btn-block"  href="#" data-toggle="modal"data-target="#svtwo">Read More</button>
+					
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 mt-4 carclass">
+					<div class="card border-warning">
+						<div>
+							<div id="containerCarousel" class="card-img-top">
+								<div class="container-fluid">
+									<div class="row">
+										<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+											<ol class="carousel-indicators">
+												<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+												
+												
+											</ol>
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<img src="img/31.jpg" class="d-block w-100" alt="..." >
+													<div class="carousel-caption d-none d-md-block">
+														
+													</div>
+												</div>
+												
+												
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div><!-- end of container carousel -->
+						</div>
+					</div>
+					<div class="card-body mx-auto" align="center">
+						<h4 align="center"><b>RAV 4</b></h4>
+						<div class="row ">
+							<div class="col-12">
+								<i class="fas fa-users fa-2x"></i><br>
+								<p>4 seats</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer">
+						
+						<button type="button" class=" btn btn-warning btn-block"  href="#" data-toggle="modal"data-target="#svthree" >Read More</button>
+					
+					</div>
+				</div>
+				<a href="findcar.html" style="text-decoration: none;" class="my-5 mx-5"><button class="bg-warning" style="width: 100px;height: 49px;border-radius: 10px;"><b>Back</b></button></a>
+			</div>
+		</div>	
+	</div>
+
+	<div id="howwork">
+		<div class="container-fluid pt-5 text-warning">
+			<div class="row text-center">
+				<div class="col-lg-12">
+					<h1><u>HOW IT WORK</u></h1>
+				</div>
+			</div>
+			<div class="row text-center mt-5">
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">JOIN</h3>
+						<p>
+							You'll need to get free Tap Card by completely registration in order to access the vehicles.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x" >
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">RESERVE</h3>
+						<p>
+							Log in and select the vehicle you want and how long you need it.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x" style="">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">UNLOCK AND DRIVE</h3>
+						<p>
+							Hold your membership card over the windshield sensor to unlock the vehicle. The keys will be waiting for you inside.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x" style="">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">RETURN</h3>
+						<p>
+							Return the vehicle at the end of your reservation. Hold your tap card over the windshield sensor. The doors will lock and your rental will end. Access End Trip from your account on our website.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container-fluid  bg-dark" style="padding: 100px;">
+			<div class="row text-center">
+				<div class="col-12">
+					<a href="index.html" class="text-warning">HOME</a>
+					<span class="text-warning p-2">  . </span>
+					<a href="findcar.html" class="text-warning">FIND A CAR</a>
+					<span class="text-warning p-2">  .  </span>
+					<a href="work.html" class="text-warning">HOW IT WORK</a>
+					<span class="text-warning p-2">  .  </span>
+					<a href="contact.html" class="text-warning">CONTACT</a>
+				</div>
+			</div>
+			<div class="row text-center p-4">
+				<div class="col-12">
+					<small><a href="about.html" class="text-warning">About</a></small>
+					<small style="font-size: 20px;" class="text-warning">|</small>
+					<small><a href="faq.html" class="text-warning">FAQ</a></small>
+					<small style="font-size: 20px;" class="text-warning">|</small>
+					<small><a href="feedback.html" class="text-warning">Feedback</a></small>
+				</div>
+			</div>
+			<div class="row text-center p-4">
+				<div class="col-12 text-warning">
+					<i class="fab fa-facebook-square fa-2x p-2"></i>
+					<i class="fab fa-twitter-square fa-2x p-2"></i>
+					<i class="fab fa-instagram fa-2x p-2"></i>
+					<i class="fab fa-google-plus-square fa-2x p-2"></i>
+				</div>
+			</div>
+			<div class="row text-center text-warning">
+				<div class="col-12">
+					<h5>PERFECT7 CO. LTD &copy; 2020</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+<!-- Modal Start Here -->
+<div class="modal fade" id="signupModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-xl modal-dialog-" align="center" role="document">
+		<div class="modal-content">
+			<div class="modal-header bg-warning border-dark">
+				<h5 class="modal-title " id="exampleModalLabel">Sign In | Sign Up</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<img src="img/modalimg.png" style="width: 500px; height: 300px;padding-top: 20px;">
+					</div>
+
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Sign Up</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"> Sign In </a>
+							</li>
+							
+						</ul>
+						<div class="tab-content " id="myTabContent">
+							<div class="tab-pane fade show active border-warning" id="home" role="tabpanel" aria-labelledby="home-tab">
+								<form>
+									<div class="form-group" align="left">
+										<label for="username" > User Name</label>
+										<input type="text" name="" class="form-control" id="username">	
+									</div>
+
+									<div class="form-group" align="left">
+										<label for="username" > Email </label>
+										<input type="text" name="" class="form-control" id="username">	
+									</div>
+
+									<div class="form-group" align="left">
+										<label for="username" > Password </label>
+										<input type="text" name="" class="form-control" id="username">
+									</div>
+
+									<div class="offset-2 col-8 offset-2 ">
+										<button type="submit" class="btn btn-warning btn-block">Register</button>
+										
+									</div>
+								</form>
+							</div>
+
+							<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+								<form>
+									<div class="form-group" align="left">
+										<label for="username" > Email </label>
+										<input type="text" name="" class="form-control" id="username">	
+									</div>
+
+									<div class="form-group" align="left">
+										<label for="username" > Password </label>
+										<input type="text" name="" class="form-control" id="username">
+									</div>
+
+									<div class="form-group" align="left">
+										<input type="checkbox" name="">&nbsp;Remember Me
+									</div>
+
+									<div class="offset-2 col-8 offset-2">
+										<button type="submit" class="btn btn-warning btn-block">Login</button>
+										
+									</div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+<!-- modal end -->
+<div class="modal fade" id="svone" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title" id="exampleModalLongTitle"><b align="center">Perfect 7</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+        <form align="justify">
+        	<label>Model</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 30px;"></i>
+        	<input type="text" value="Enclave" readonly="" style="border: none;">
+        	<br> 
+        	<label>Fuel type</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 12px;"></i>
+        	<input type="text" value="Diesel" readonly="" style="border: none;">
+        	<br>
+        	<label>Seat</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 45px;"></i>
+        	<input type="text" value="4" readonly="" style="border: none;">
+        	<br>
+        	<label>Per day</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 23px;"></i>
+        	<input type="text" value="100,000 MMK" readonly="" style="border: none;">
+        	<br>
+        	<label>Day</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 48px"></i>
+        	<input type="number" placeholder="Enter day" >
+        </form>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-warning">Booking</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="svtwo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title" id="exampleModalLongTitle"><b align="center">Perfect 7</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+        <form align="justify">
+        	<label>Model</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 30px;"></i>
+        	<input type="text" value="CR-V" readonly="" style="border: none;">
+        	<br>
+        	<label>Fuel type</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 12px;"></i>
+        	<input type="text" value="Diesel" readonly="" style="border: none;">
+        	<br>
+        	<label>Seat</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 45px;"></i>
+        	<input type="text" value="4" readonly="" style="border: none;">
+        	<br>
+        	<label>Per day</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 23px;"></i>
+        	<input type="text" value="120,000 MMK" readonly="" style="border: none;">
+        	<br>
+        	<label>Day</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 48px"></i>
+        	<input type="number" placeholder="Enter day" >
+        </form>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-warning">Booking</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="svthree" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title" id="exampleModalLongTitle"><b align="center">Perfect 7</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+        <form align="justify">
+        	<label>Model</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 30px;"></i>
+        	<input type="text" value="RAV 4" readonly="" style="border: none;">
+        	<br>
+        	<label>Fuel type</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 12px;"></i>
+        	<input type="text" value="Diesel" readonly="" style="border: none;">
+        	<br>
+        	<label>Seat</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 45px;"></i>
+        	<input type="text" value="10" readonly="" style="border: none;">
+        	<br>
+        	<label>Per day</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 23px;"></i>
+        	<input type="text" value="100,000 MMK" readonly="" style="border: none;">
+        	<br>
+        	<label>Day</label>
+        	<i class="fas fa-minus mx-4" style="font-size: 12px;padding-left: 48px"></i>
+        	<input type="number" placeholder="Enter day" >
+        </form>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-warning">Booking</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

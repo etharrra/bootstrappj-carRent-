@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find Car</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- jsCustom -->
+	<script type="text/javascript" src="custom.js"></script>
+	<style type="text/css">
+		.carclass{
+			box-shadow: 5px 10px 10px gray;
+
+		}
+		
+		
+	</style>
+	
+</head>
+<body>
+
+	<div id="nav">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark
+		 fixed-top">
+			<a class="navbar-brand text-warning" href="#">
+				PERFECT7.COM
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse " id="navbarNav">
+				<ul class="navbar-nav ml-auto" align="center">
+					<li class="nav-item px-3 hover1">
+						<a class="nav-link text-warning " href="index.html">Home </a>
+					</li>
+					<li class="nav-item px-3 active1">
+						<a class="nav-link text-warning" href="findcar.html">Find A Car<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item px-3 hover1">
+						<a class="nav-link text-warning" href="work.html">How It Work</a>
+					</li>
+					<li class="nav-item dropdown hover1">
+						<a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							More
+						</a>
+						<div class="dropdown-menu bg-dark text-center" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item text-warning" href="contact.html">Contact Us</a>
+							<a class="dropdown-item text-warning" href="feedback.html">Feedback</a>
+							<a class="dropdown-item text-warning" href="about.html">About</a>
+							<a class="dropdown-item text-warning" href="faq.html">FAQs</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto" align="center">
+					<li class="nav-item px-3">
+						 <a class="nav-link active text-warning" href="#" data-toggle="modal"data-target="#signupModal">Sign in | Sign up</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-5 pt-5 mb-5 pb-5">
+		<div class="card mx-5 border-warning "style="border-radius: 20px;" >
+			
+			<h2 style="text-align: center;font-weight: bold; padding-top: 20px;" >Select A Category</h2>
+
+			<div class="row mx-auto ">
+				<div class="col-lg-3 col-md-6 col-sm-12 my-3" align="center"  >
+					<a href="van.html" style="text-decoration: none;">
+						<p align="center" style="font-weight: bold;">Vans</p>
+						<div class="card" style="border:none;">
+							<img src="img/v2.png" width="60px;" >
+						</a>	
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12 my-3" align="center"  >
+					<a href="sports.html" style="text-decoration: none;">
+						<p align="center" style="font-weight: bold;">Sports</p>
+						<div class="card" style="border:none;">
+							<img src="img/s1.png" width="60px;" height="25px;" class="my-3">
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12 my-3" align="center"  >
+					<a href="suvs.html" style="text-decoration: none;">
+						<p align="center" style="font-weight: bold;">SUVs</p>
+						<div class="card" style="border:none;">
+							<img src="img/sv1.png" width="60px;" height="25px;" class="my-3">
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12 my-3 mx-auto" align="center"  >
+					<a href="truck.html" style="text-decoration: none;">
+						<p align="center" style="font-weight: bold;" >Truck</p>
+						<div class="card" style="border:none;">
+							<img src="img/t1.png" width="60px;" height="25px;" class="my-3">
+						</div>
+					</a>
+				</div>
+			</div> 
+		</div>	  
+	</div>
+	<div class="container mt-1 pt-1 mb-1 pb-1 ">
+		<div class="card mx-5 border-warning "
+		style="border-radius: 20px;" >
+
+		<h2 style="text-align: center;font-weight: bold; padding-top: 20px;" >Available Brand</h2>
+
+		<div class="row mx-auto ">
+			<div class="col-lg-3 col-md-6 col-sm-12 my-3" align="center"  >
+				<div class="card" style="border:none;">
+					<img src="img/honda.png" width="90px;" >	
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-12 my-3" align="center"  >
+				<div class="card" style="border:none;">
+					<img src="img/ford.png" width="100px;" height="80px;" >	
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-6 col-sm-12 my-3" align="center"  >
+				<div class="card" style="border:none;">
+					<img src="img/nissan.png" width="100px;" height="70px;" >	
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-12 my-3" align="center"  >
+				<div class="card" style="border:none;">
+					<img src="img/gmc.png" width="80px;" height="70px;">	
+				</div>
+			</div>
+		</div> 
+		<div class="row mx-auto">
+			<div class="col-lg-12 col-md-12 col-sm-12 my-3" align="center"  >
+				<div class="card" style="border:none;">
+					<img src="img/hyundai.jpg" width="80px;" height="80px;">	
+				</div>
+			</div>
+		</div>
+	</div>	  
+</div>
+	
+	
+
+	<div id="howwork">
+		<div class="container-fluid pt-5 text-warning">
+			<div class="row text-center">
+				<div class="col-lg-12">
+					<h1><u>HOW IT WORK</u></h1>
+				</div>
+			</div>
+			<div class="row text-center mt-5">
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">JOIN</h3>
+						<p>
+							You'll need to get free Tap Card by completely registration in order to access the vehicles.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x" >
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">RESERVE</h3>
+						<p>
+							Log in and select the vehicle you want and how long you need it.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x" style="">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">UNLOCK AND DRIVE</h3>
+						<p>
+							Hold your membership card over the windshield sensor to unlock the vehicle. The keys will be waiting for you inside.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 col-sm-12">
+					<span class="fa-stack fa-3x" style="">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
+					</span>
+					<div class="mt-3">
+						<h3 class="">RETURN</h3>
+						<p>
+							Return the vehicle at the end of your reservation. Hold your tap card over the windshield sensor. The doors will lock and your rental will end. Access End Trip from your account on our website.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container-fluid  bg-dark" style="padding: 100px;">
+			<div class="row text-center">
+				<div class="col-12">
+					<a href="index.html" class="text-warning">HOME</a>
+					<span class="text-warning p-2">  . </span>
+					<a href="findcar.html" class="text-warning">FIND A CAR</a>
+					<span class="text-warning p-2">  .  </span>
+					<a href="work.html" class="text-warning">HOW IT WORK</a>
+					<span class="text-warning p-2">  .  </span>
+					<a href="contact.html" class="text-warning">CONTACT</a>
+				</div>
+			</div>
+			<div class="row text-center p-4">
+				<div class="col-12">
+					<small><a href="about.html" class="text-warning">About</a></small>
+					<small style="font-size: 20px;" class="text-warning">|</small>
+					<small><a href="faq.html" class="text-warning">FAQ</a></small>
+					<small style="font-size: 20px;" class="text-warning">|</small>
+					<small><a href="feedback.html" class="text-warning">Feedback</a></small>
+				</div>
+			</div>
+			<div class="row text-center p-4">
+				<div class="col-12 text-warning">
+					<i class="fab fa-facebook-square fa-2x p-2"></i>
+					<i class="fab fa-twitter-square fa-2x p-2"></i>
+					<i class="fab fa-instagram fa-2x p-2"></i>
+					<i class="fab fa-google-plus-square fa-2x p-2"></i>
+				</div>
+			</div>
+			<div class="row text-center text-warning">
+				<div class="col-12">
+					<h5>PERFECT7 CO. LTD &copy; 2020</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+<!-- Modal Start Here -->
+<div class="modal fade" id="signupModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-xl modal-dialog-" align="center" role="document">
+		<div class="modal-content">
+			<div class="modal-header bg-warning border-dark">
+				<h5 class="modal-title " id="exampleModalLabel">Sign In | Sign Up</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<img src="img/modalimg.png" style="width: 500px; height: 300px;padding-top: 20px;">
+					</div>
+
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Sign Up</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"> Sign In </a>
+							</li>
+							
+						</ul>
+						<div class="tab-content " id="myTabContent">
+							<div class="tab-pane fade show active border-warning" id="home" role="tabpanel" aria-labelledby="home-tab">
+								<form>
+									<div class="form-group" align="left">
+										<label for="username" > User Name</label>
+										<input type="text" name="" class="form-control" id="username">	
+									</div>
+
+									<div class="form-group" align="left">
+										<label for="username" > Email </label>
+										<input type="text" name="" class="form-control" id="username">	
+									</div>
+
+									<div class="form-group" align="left">
+										<label for="username" > Password </label>
+										<input type="text" name="" class="form-control" id="username">
+									</div>
+
+									<div class="offset-2 col-8 offset-2 ">
+										<button type="submit" class="btn btn-warning btn-block">Register</button>
+										
+									</div>
+								</form>
+							</div>
+
+							<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+								<form>
+									<div class="form-group" align="left">
+										<label for="username" > Email </label>
+										<input type="text" name="" class="form-control" id="username">	
+									</div>
+
+									<div class="form-group" align="left">
+										<label for="username" > Password </label>
+										<input type="text" name="" class="form-control" id="username">
+									</div>
+
+									<div class="form-group" align="left">
+										<input type="checkbox" name="">&nbsp;Remember Me
+									</div>
+
+									<div class="offset-2 col-8 offset-2">
+										<button type="submit" class="btn btn-warning btn-block">Login</button>
+										
+									</div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+<!-- modal end -->
+
+</body>
+</html>

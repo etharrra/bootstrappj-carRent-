@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- jsCustom -->
+	<script type="text/javascript" src="custom.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+
+	<div id="nav">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark
+		 fixed-top">
+			<a class="navbar-brand text-warning" href="#">
+				PERFECT7.COM
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse " id="navbarNav">
+				<ul class="navbar-nav ml-auto" align="center">
+					<li class="nav-item px-3 hover1">
+						<a class="nav-link text-warning " href="index.html">Home </a>
+					</li>
+					<li class="nav-item px-3 hover1">
+						<a class="nav-link text-warning" href="findcar.html">Find A Car</a>
+					</li>
+					<li class="nav-item px-3 hover1">
+						<a class="nav-link text-warning" href="work.html">How It Work</a>
+					</li>
+					<li class="nav-item dropdown active1">
+						<a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							More
+						</a>
+						<div class="dropdown-menu bg-dark text-center" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item text-warning" href="contact.html">Contact Us</a>
+							<a class="dropdown-item text-warning" href="feedback.html">Feedback<span class="sr-only">(current)</span></a>
+							<a class="dropdown-item text-warning" href="about.html">About</a>
+							<a class="dropdown-item text-warning" href="faq.html">FAQs</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto" align="center">
+					<li class="nav-item px-3">
+						 <a class="nav-link active text-warning" href="#" data-toggle="modal"data-target="#signupModal">Sign in | Sign up</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-5 pt-5" id="secnav">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link " href="contact.html">Contact Us </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link activeside" href="feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQs</a>
+            </li>
+        </ul>
+    </div>
+
+	<div class="container mt-5 pt-5"> <!--  open container -->
+
+		<div class="row">   <!--  open row -->    
+			
+			<div class="col-lg-12 col-md-12 col-sm-12"> <!-- open col -->
+
+				<div style="padding-top: 50px;">          
+					<h1>Customer Satisfaction Survey</h1>
+				</div>
+
+				<div style="padding-top: 20px;">
+					<div class="pagefeedback">
+						<p>
+							Thank you for giving us the opportunity to serve you 
+							better.Please help us by taking a minute or two to tell us about the service
+							that you have received so far. We appreciate your business and want to make sure we meet your expectations.
+						</p>
+					</div>
+				</div>
+
+				<!-- one text -->
+				<div style="padding-top: 20px;">
+					<div class="pagefeedback"><p><u>Please tell us about your experience.</u></p></div>
+				</div>
+
+				<!-- one text -->
+
+				<div class="cover" style="margin-bottom: 100px;"><!--feed back form open -->
+					<h3>Customer Feedback </h3>
+					<hr>
+					<form method="" action=""> 
+
+
+						<div class="form-group" >
+							<label class="form-control-label"><b>Are you satisfied with your overall experience with PERFECT7 Co. Ltd?</b></label>
+							<br>
+
+
+							<input type="radio" name="ans" id="yes">
+							<label for="yes" class="form-control-label">Yes</label> 
+
+							<input type="radio" name="ans" id="no">
+							<label for="no" class="form-control-label"> No</label> 
+
+						</div>
+
+
+						<div class="form-group" >
+							<label for="message" class="form-control-label"><b>Your Message</b></label><br>
+							<textarea class="form-control input-user-text" 
+							name="message" cols="50" rows="5" id="message"
+							required="required" placeholder="Enter Your Message"></textarea>
+						</div>
+
+
+						<div class="pagefeedback" >
+							<p>Please do not enter any credit card, payment or any other personally identifiable information.If further information is required, we will contact you directly.</p>
+
+							<hr>
+
+							<h3>CONTACT INFORMATION</h3>
+
+							<hr>
+						</div>
+
+
+						<div class="form-group" >
+							<label for="name" class="form-control-label font-weight-bold">Full Name</label>
+							<input class="form-control input-user-text"
+							name="name" type="text" id="name"
+							required="required" placeholder="Enter Your Full Name">
+						</div>
+
+
+						<div class="form-group" >
+							<label for="email" class="form-control-label font-weight-bold">Email</label>
+							<input class="form-control input-user-text" name="email" type="email" id="email" required="required" placeholder="Enter Your @Email">
+						</div>
+
+							<br><br>
+
+						<div class="form-group" style="text-align: center;">
+							<input class="btn btn-lg btn-warning ww" type="button" value="Send Feedback">
+						</div>
+
+							<br><br>
+					</form>
+				</div><!--feed back form close -->
+
+			</div>  <!-- col lg 12 clos -->
+		</div>  <!--  close row -->  
+	</div> <!--  close container -->  
+
+
+	<div id="footer">
+		<div class="container-fluid  bg-dark" style="padding: 100px;">
+			<div class="row text-center">
+				<div class="col-12">
+					<a href="index.html" class="text-warning">HOME</a>
+					<span class="text-warning p-2">  . </span>
+					<a href="findcar.html" class="text-warning">FIND A CAR</a>
+					<span class="text-warning p-2">  .  </span>
+					<a href="work.html" class="text-warning">HOW IT WORK</a>
+					<span class="text-warning p-2">  .  </span>
+					<a href="contact.html" class="text-warning">CONTACT</a>
+				</div>
+			</div>
+			<div class="row text-center p-4">
+				<div class="col-12">
+					<small><a href="about.html" class="text-warning">About</a></small>
+					<small style="font-size: 20px;" class="text-warning">|</small>
+					<small><a href="faq.html" class="text-warning">FAQ</a></small>
+					<small style="font-size: 20px;" class="text-warning">|</small>
+					<small><a href="feedback.html" class="text-warning">Feedback</a></small>
+				</div>
+			</div>
+			<div class="row text-center p-4">
+				<div class="col-12 text-warning">
+					<i class="fab fa-facebook-square fa-2x p-2"></i>
+					<i class="fab fa-twitter-square fa-2x p-2"></i>
+					<i class="fab fa-instagram fa-2x p-2"></i>
+					<i class="fab fa-google-plus-square fa-2x p-2"></i>
+				</div>
+			</div>
+			<div class="row text-center text-warning">
+				<div class="col-12">
+					<h5>PERFECT7 CO. LTD &copy; 2020</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal Start Here -->
+	<div class="modal fade" id="signupModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl modal-dialog-" align="center" role="document">
+			<div class="modal-content">
+				<div class="modal-header bg-warning border-dark">
+					<h5 class="modal-title " id="exampleModalLabel">Sign In | Sign Up</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<img src="img/modalimg.png" style="width: 500px; height: 300px;padding-top: 20px;">
+						</div>
+
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Sign Up</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"> Sign In </a>
+								</li>
+								
+							</ul>
+							<div class="tab-content " id="myTabContent">
+								<div class="tab-pane fade show active border-warning" id="home" role="tabpanel" aria-labelledby="home-tab">
+									<form>
+										<div class="form-group" align="left">
+											<label for="username" > User Name</label>
+											<input type="text" name="" class="form-control" id="username">	
+										</div>
+
+										<div class="form-group" align="left">
+											<label for="username" > Email </label>
+											<input type="text" name="" class="form-control" id="username">	
+										</div>
+
+										<div class="form-group" align="left">
+											<label for="username" > Password </label>
+											<input type="text" name="" class="form-control" id="username">
+										</div>
+
+										<div class="offset-2 col-8 offset-2 ">
+											<button type="submit" class="btn btn-warning btn-block">Register</button>
+											
+										</div>
+									</form>
+								</div>
+
+								<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+									<form>
+										<div class="form-group" align="left">
+											<label for="username" > Email </label>
+											<input type="text" name="" class="form-control" id="username">	
+										</div>
+
+										<div class="form-group" align="left">
+											<label for="username" > Password </label>
+											<input type="text" name="" class="form-control" id="username">
+										</div>
+
+										<div class="form-group" align="left">
+											<input type="checkbox" name="">&nbsp;Remember Me
+										</div>
+
+										<div class="offset-2 col-8 offset-2">
+											<button type="submit" class="btn btn-warning btn-block">Login</button>
+											
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- modal end -->
+
+
+</body>
+</html>

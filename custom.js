@@ -1,0 +1,84 @@
+
+$(document).ready(function(){
+    $("#click_slide").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide").slideToggle("slow");
+    })
+    $("#click_slide1").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide1").slideToggle("slow");
+    })
+    $("#click_slide2").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide2").slideToggle("slow");
+    })
+    $("#click_slide3").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide3").slideToggle("slow");
+    })
+    $("#click_slide4").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide4").slideToggle("slow");
+    })
+    $("#click_slide5").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide5").slideToggle("slow");
+    })
+    $("#click_slide6").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide6").slideToggle("slow");
+    })
+    $("#click_slide7").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide7").slideToggle("slow");
+    })
+    $("#click_slide8").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide8").slideToggle("slow");
+    })
+    $("#click_slide9").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide9").slideToggle("slow");
+    })
+    $("#click_slide10").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide10").slideToggle("slow");
+    })
+    $("#click_slide11").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide11").slideToggle("slow");
+    })
+    $("#click_slide12").click(function(){
+        //$("#pannel").slideDown("slow");
+        $("#slide12").slideToggle("slow");
+    })
+    // end of contents
+
+    $("#re").click(function(){
+        $("#page1").slideDown("slow");
+        $("#page2").slideDown("slow");
+        $("#page3").slideDown("slow");
+        $("#page4").slideDown("slow");
+    })
+    $("#book").click(function(){
+        $("#page2").slideDown("slow");
+        $("#page1").slideUp("slow");
+        $("#page3").slideDown("slow");
+        $("#page4").slideDown("slow");
+    })
+    $("#flue").click(function(){
+        $("#page3").slideDown("slow");
+        $("#page1").slideUp("slow");
+        $("#page2").slideUp("slow");
+        $("#page4").slideDown("slow");
+    })
+    $("#cat").click(function(){
+        $("#page4").slideDown("slow");
+        $("#page1").slideUp("slow");
+        $("#page2").slideUp("slow");
+        $("#page3").slideUp("slow");
+    })
+    // end of side nav
+
+    
+})
